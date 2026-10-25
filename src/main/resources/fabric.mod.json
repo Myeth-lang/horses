@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "better-horse-animations",
+  "version": "${version}",
+  "name": "Better Horse Animations",
+  "description": "Marcha realista (andar, trote e galope), balanço do corpo e do rabo dos cavalos. Só no cliente.",
+  "authors": ["Você"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "mixins": [
+    {
+      "config": "better_horse_animations.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}

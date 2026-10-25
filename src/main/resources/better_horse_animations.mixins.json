@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.horseanim.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AbstractEquineModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
